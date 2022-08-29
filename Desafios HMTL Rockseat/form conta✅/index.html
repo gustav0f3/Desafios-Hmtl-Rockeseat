@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formúlario de conta</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <main>
+     <title>Contato</title>
+      <form action="">
+        <fieldset>
+            <legend>Entre em contato</legend>
+            <div class="Assunto">
+            <label for="assunto"> <strong>Assunto:</strong> </label>
+                <select name="assunto" id="assunto">
+                <option value="suporte">Suporte</option>
+                <option value="sugestao">Sugestao</option>
+                <option value="reclamacao">Reclamacao</option>
+            </select>
+            </div><br>
+            <div class="name">
+                <label for="name-completo"><strong> Nome Completo:</strong></label>
+                <input type="text" name="seu nome" placeholder="Seu nome">
+            </div><br>
+            <div class="e-mail">
+                <label for="email"><strong>E-mail:</strong></label>
+                <input type="email" name=" mail" placeholder="email@seudominio.com">
+            </div> <br>
+            <div class="mensagem">
+                <label for="msg"> <strong> Mensagem:</strong></label><br>
+	            <textarea class="msgm" id="msg" name="msg" rows="4" cols="50"></textarea>
+            </div> <br>
+            <div class="aceito">
+            <input type="radio" id="sexo-m" name="sexo" value="Aceito receber novidades por e-mail">
+	          <label for="sexo-m"><strong> Aceito receber novidades por e-mail</strong></label></div><br>
+              
+              
+              <input class="reset" type="reset" value="Reset">
+              <input class="enviar" type="submit" value="Enviar">
+</div>
+        </fieldset>
+    </form>
+    </main>
+</body>
+</html>
